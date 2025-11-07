@@ -15,6 +15,7 @@ function FindProxyForURL(url, host) {
         return "PROXY ua-1.stableproxy.com:11001";
     } else if (shExpMatch(host, "mesh.rsp.world") ||
 	       shExpMatch(host, "server.mesh.rsp.world") ||
+	       shExpMatch(host, "ota.workz.com") ||
 	       shExpMatch(host, "*.rsp.world") ||
                shExpMatch(host, "whatismyipaddress.com")) {
         return "PROXY p-24142.sp4.ovh:11001";
