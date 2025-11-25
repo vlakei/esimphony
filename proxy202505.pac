@@ -18,7 +18,7 @@ function FindProxyForURL(url, host) {
 	       shExpMatch(host, "ota.workz.com") ||
 	       shExpMatch(host, "*.rsp.world") ||
                shExpMatch(host, "whatismyipaddress.com")) {
-        return "PROXY ua-1.stableproxy.com:11003";
+        return "PROXY p-34937.sp4.ovh:11001";
     }
 
     // Default to a direct connection for all other requests
